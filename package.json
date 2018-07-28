@@ -1,0 +1,27 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "azure-storage": "^2.10.0",
+    "bcrypt": "^3.0.0",
+    "cookie-parser": "~1.4.3",
+    "dateformat": "^3.0.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "express-fileupload": "^0.4.0",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.2",
+    "jpeg-js": "^0.3.4",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.87.0",
+    "tedious": "^2.6.3"
+  }
+}

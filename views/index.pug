@@ -1,0 +1,36 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+	p aasdasd
+	#container
+		video#video(width=640,height=480,autoplay=true)
+		br
+		br
+		p ID:
+		p#id_text 
+		input#ID(
+			type='text'
+		)
+		button#id_enter Ingresa tu ID
+		br
+		br
+		p Contraseña:
+		p#password_text
+		input#password(
+			type='text'
+		)
+		button#password_enter Ingresa la contraseña
+		br
+		br
+		button#snap Sacar foto
+		br
+		br
+		button#stop Parar
+		br
+		br
+		canvas#canvas(width=640,height=480)
+	script(src="/javascripts/script.js")
+
+		
