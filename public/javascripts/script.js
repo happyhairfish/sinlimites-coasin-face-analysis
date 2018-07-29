@@ -67,7 +67,7 @@ function postFile(file,id) {
     var filename = d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate()+" "+d.getHours()+"_"+d.getMinutes()+"_"+d.getSeconds();
     var date = d.toString();
 
-    xhr.open('POST', 'http://localhost:3000/upload?filename='+filename+'&id='+user_id+'&token='+password+'&date='+date, true);
+    xhr.open('POST', '/upload?filename='+filename+'&id='+user_id+'&token='+password+'&date='+date, true);
     xhr.onload = function () {
         if (this.status === 200)
             console.log(this.response);
