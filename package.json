@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "set DEBUG=myapp:* & npm start"
+    "start": "node ./bin/www"
   },
   "engines":{"node":"8.11.1"},
   "dependencies": {
